@@ -21,9 +21,9 @@ var token = process.env.TOKEN || 'token';
 var received_updates = [];
 
 app.get('/', function(req, res) {
-  console.log("sandwich")
+  // console.log("sandwich")
   console.log(req);
-  res.send('<pre>' + JSON.stringify(received_updates, null, 2) + '</pre>');
+  res.send('<pre>' + JSON.stringify(received_updates, null, 2)+"Dasdsadsadsa" + '</pre>');
 });
 
 app.get(['/facebook', '/instagram'], function(req, res) {
