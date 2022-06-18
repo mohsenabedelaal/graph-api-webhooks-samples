@@ -23,7 +23,7 @@ var received_updates = [];
 app.get('/', function(req, res) {
   // console.log("sandwich")
   console.log(req);
-  res.send('<pre>' + JSON.stringify(received_updates, null, 2)+"Dasdsadsadsa" + '</pre>');
+  res.send('<pre>' + JSON.stringify(received_updates, null, 2)+"Dasdsadsadsa I am here" + '</pre>');
 });
 
 app.get(['/facebook', '/instagram'], function(req, res) {
